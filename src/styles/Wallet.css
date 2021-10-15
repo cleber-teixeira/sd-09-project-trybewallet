@@ -1,0 +1,61 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  width: 100%;
+}
+
+.body .form {
+  align-items: center;
+  background-color: gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 15px 0;
+  width: 100%;
+}
+
+.btn {
+  padding: 5px;
+}
+
+.currency , .value {
+  width: 50px;
+}
+
+.descript , .method , .tag {
+  width: 170px;
+}
+
+.header {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0 auto;
+  width: 100%;
+}
+
+header .title {
+  color: black;
+  flex-grow: 3;
+  margin-left: 10px;
+  text-align: left;
+}
+
+p {
+  flex-grow: 1;
+}
+
+.table {
+  border: 0;
+  border-spacing: 0;
+}
+
+.table th {
+  background-color: darkslategray;
+  border: none;
+  color: white;
+  line-height: 30px;
+}
